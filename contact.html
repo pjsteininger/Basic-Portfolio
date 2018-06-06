@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Philip Steininger's Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact | Philip Steininger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
+
 <body>
-        <header>Philip Steininger</header>
-    <nav>
-        <a href="#">About</a>
-        <div class=navDivider></div>
-        <a href="#">Portfolio</a>
-        <div class=navDivider></div>
-        <a href="#">Contact</a>
-    </nav>
-    <h1>Contact</h1>
-    <div class=horizontalDivider></div>
-    <form>
-        <h2>Name</h2>
-        <input type="text" value="Your Name">
-        <h2>Email</h2>
-        <input type="text" value="example@gmail.com">
-        <h2>Message</h2>
-        <input type="text" value="">
-        <input type="submit" value="Submit">
-    </form>
-    
+    <div class=whiteHeaderBackground></div>
+    <header>
+        <div class=headerElements>
+            <h1 class=nameHeader>Philip Steininger</h1>
+            <nav>
+                <a class=navLink href="#">About</a>
+                <div class=navDivider></div>
+                <a class=navLink href="#">Portfolio</a>
+                <div class=navDivider></div>
+                <a class=navLink href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class=fullScreenVerticalLine></div>
+    <div class=contentArea>
+        <div class=contentElements>
+            <h2 class=pageHeader>Contact</h2>
+            <div class=contentDivider></div>
+            <form class=contactForm>
+                <h3 class=formLabels>Name</h3>
+                <input class=formInputs type="text" placeholder="Your Name">
+                <h3 class=formLabels>Email</h3>
+                <input class=formInputs type="text" placeholder="example@gmail.com">
+                <h3 class=formLabels>Message</h3>
+                <input class=formInputs id=contactMessageBox type="text" value="">
+                <br>
+                <input id=contactSubmitButton type="submit" value="Submit">
+            </form>
+        </div>
+    </div>  
 </body>
 </html>
